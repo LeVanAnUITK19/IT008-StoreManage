@@ -1,0 +1,55 @@
+# Build directories
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Publish outputs
+publish/
+*.dll
+*.exe
+*.pdb
+
+# Debug/Cache
+*.log
+*.cache
+*.tmp
+*.db
+*.bak
+
+# Avalonia designer & temp
+*.ide/
+*.designer.cs
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# Others
+*.swp
+*.lock.json
